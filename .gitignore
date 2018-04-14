@@ -37,7 +37,6 @@ nosetests.xml
 .idea
 .settings
 .settings/*
-settings.py
 crecon/public/media/uploads/
 upload/
 venv/
