@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% include 'include/head.html' %}
+</head>
+<body>
+    <div class="wrapper">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% include 'include/js.html' %}
+    {% block js %}{% endblock %}
+</body>
+</html>
+
+        
