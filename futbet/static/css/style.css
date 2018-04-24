@@ -9,7 +9,7 @@ html,body {
 }
 
 body {
-	background: #373e47 url(../img/bg.jpg) repeat;
+	background: #373e47 url(../    opacity: 1;img/bg.jpg) repeat;
 	font-family: Arial;
 	font-size: 12px;
 	color: #e4e4e4;
@@ -464,4 +464,7 @@ ul.leftNav li:last-child a {
 
 .footer p {
 	text-align: center;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+	opacity: 1 !important;
 }
